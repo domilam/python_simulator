@@ -32,7 +32,7 @@ class MessageDeliveryEngine:
             if loss_opened:
                 message.add_opened_message(user)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     l_ratio = 0.5
     mde = MessageDeliveryEngine(l_ratio)
     mde()
